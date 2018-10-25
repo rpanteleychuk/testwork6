@@ -1,0 +1,17 @@
+/* line 1, ../sass/head-section.scss */
+.main-section {
+  min-height: 645px;
+  background-color: #f8f8f8;
+  padding-top: 153px;
+}
+
+/* line 7, ../sass/head-section.scss */
+.police-img {
+  padding-left: 78px;
+  padding-right: 28px;
+}
+
+/* line 12, ../sass/head-section.scss */
+.stripe-4 {
+  background: repeating-linear-gradient(-45deg, #f8f8f8, #f8f8f8 10px, #e2ebf4 10px, #e2ebf4 25px);
+}

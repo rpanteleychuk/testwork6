@@ -1,0 +1,64 @@
+body {
+  font: 16px/29px Raleway;
+  color: #6e6e6e;
+}
+
+.menu-font {
+  font: 16px Roboto Condensed;
+  letter-spacing: 0.6px;
+}
+
+.space-menu {
+  color: #d75014;
+  font: 16px Roboto Condensed;
+  padding: 8px 0 8px 0;
+}
+
+.main-text-red {
+  font: 30px/46px Playfair Display;
+  color: #d75014;
+  letter-spacing: 5px;
+}
+
+.red-text {
+  font-family: Playfair Display;
+  color: #d75014;
+}
+
+h3 {
+  font: 21px/31px;
+  letter-spacing: 5px;
+}
+
+.green-font {
+  font: 14px/21px Playfair Display;
+  color: #9abcae;
+}
+
+@media screen and (min-width: 1400px) {
+  .main-text {
+    font: 100 55px/46px Raleway;
+    letter-spacing: 11px;
+  }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1399px) {
+  .main-text {
+    font: 100 45px/46px Raleway;
+    letter-spacing: 5px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1099px) {
+  .main-text {
+    font: 100 35px/46px Raleway;
+    letter-spacing: 5px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  .main-text {
+    font: 100 30px/46px Raleway;
+    letter-spacing: 5px;
+  }
+}

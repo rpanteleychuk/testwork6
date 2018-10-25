@@ -1,0 +1,33 @@
+/* line 1, ../sass/body.scss */
+header {
+  background-color: #f8f8f8;
+}
+
+/* line 5, ../sass/body.scss */
+.container-fluid {
+  max-width: 1366px;
+}
+
+/* line 9, ../sass/body.scss */
+.container {
+  max-width: 914px;
+}
+
+/* line 13, ../sass/body.scss */
+.second-section {
+  padding-top: 113px;
+  min-height: 768px;
+}
+
+/* line 18, ../sass/body.scss */
+.third-section {
+  background-color: #e2ebf4;
+  min-height: 768px;
+  padding-top: 170px;
+}
+
+/* line 24, ../sass/body.scss */
+.fourth-section {
+  padding-top: 113px;
+  padding-bottom: 113px;
+}

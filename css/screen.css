@@ -1,0 +1,192 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 1, ../sass/all-fonts.scss */
+body {
+  font: 16px/29px Raleway;
+  color: #6e6e6e;
+}
+
+/* line 6, ../sass/all-fonts.scss */
+.menu-font {
+  font: 16px Roboto Condensed;
+  letter-spacing: 0.6px;
+}
+
+/* line 11, ../sass/all-fonts.scss */
+.space-menu {
+  color: #d75014;
+  font: 16px Roboto Condensed;
+  padding: 8px 0 8px 0;
+}
+
+/* line 17, ../sass/all-fonts.scss */
+.main-text-red {
+  font: 30px/46px Playfair Display;
+  color: #d75014;
+  letter-spacing: 5px;
+}
+
+/* line 23, ../sass/all-fonts.scss */
+.red-text {
+  font-family: Playfair Display;
+  color: #d75014;
+}
+
+/* line 28, ../sass/all-fonts.scss */
+h3 {
+  font: 21px/31px;
+  letter-spacing: 5px;
+}
+
+/* line 33, ../sass/all-fonts.scss */
+.green-font {
+  font: 14px/21px Playfair Display;
+  color: #9abcae;
+}
+
+@media screen and (min-width: 1400px) {
+  /* line 39, ../sass/all-fonts.scss */
+  .main-text {
+    font: 100 55px/46px Raleway;
+    letter-spacing: 11px;
+  }
+}
+@media screen and (min-width: 1100px) and (max-width: 1399px) {
+  /* line 46, ../sass/all-fonts.scss */
+  .main-text {
+    font: 100 45px/46px Raleway;
+    letter-spacing: 5px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 1099px) {
+  /* line 53, ../sass/all-fonts.scss */
+  .main-text {
+    font: 100 35px/46px Raleway;
+    letter-spacing: 5px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  /* line 60, ../sass/all-fonts.scss */
+  .main-text {
+    font: 100 30px/46px Raleway;
+    letter-spacing: 5px;
+  }
+}
+/* line 1, ../sass/body.scss */
+header {
+  background-color: #f8f8f8;
+}
+
+/* line 5, ../sass/body.scss */
+.container-fluid {
+  max-width: 1366px;
+}
+
+/* line 9, ../sass/body.scss */
+.container {
+  max-width: 914px;
+}
+
+/* line 13, ../sass/body.scss */
+.second-section {
+  padding-top: 113px;
+  min-height: 768px;
+}
+
+/* line 18, ../sass/body.scss */
+.third-section {
+  background-color: #e2ebf4;
+  min-height: 768px;
+  padding-top: 170px;
+}
+
+/* line 24, ../sass/body.scss */
+.fourth-section {
+  padding-top: 113px;
+  padding-bottom: 113px;
+}
+
+/* line 2, ../sass/main-menu.scss */
+header .spacing-menu::after {
+  content: "/";
+  top: -20px;
+  right: 2%;
+  position: relative;
+  color: #d75014;
+  font: 16px Roboto Condensed;
+}
+
+/* line 12, ../sass/main-menu.scss */
+nav {
+  padding-left: 7% !important;
+  padding-right: 7% !important;
+}
+
+/* line 17, ../sass/main-menu.scss */
+.navbar-brand {
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+/* line 22, ../sass/main-menu.scss */
+.fly-brand {
+  margin-right: 30px;
+}
+
+/* line 26, ../sass/main-menu.scss */
+.navbar-nav a {
+  padding: 0 10px 0 10px !important;
+}
+
+/* line 30, ../sass/main-menu.scss */
+.bg-faded {
+  bbackground-color: #f8f8f8;
+}
+
+/* line 34, ../sass/main-menu.scss */
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .open > .nav-link {
+  color: #d75014;
+}
+
+/* line 38, ../sass/main-menu.scss */
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: orange;
+}
+
+/* line 42, ../sass/main-menu.scss */
+.tilt {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* line 50, ../sass/main-menu.scss */
+.tilt:hover {
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+
+/* line 1, ../sass/head-section.scss */
+.main-section {
+  min-height: 645px;
+  background-color: #f8f8f8;
+  padding-top: 153px;
+}
+
+/* line 7, ../sass/head-section.scss */
+.police-img {
+  padding-left: 78px;
+  padding-right: 28px;
+}
+
+/* line 12, ../sass/head-section.scss */
+.stripe-4 {
+  background: repeating-linear-gradient(-45deg, #f8f8f8, #f8f8f8 10px, #e2ebf4 10px, #e2ebf4 25px);
+}
